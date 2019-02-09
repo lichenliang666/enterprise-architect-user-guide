@@ -23,6 +23,12 @@ date: 2019-02-08
 
 # 形状元素
 
+## 工具盒（Toolbox）
+
+![EA 白板图的形状、箭头、连线](./visio-block-diagram-in-enterprise-architect/ea-whiteboard-diagram-toolbox.png)
+
+## 图例
+
 ## 形状
 
 ## 箭头
