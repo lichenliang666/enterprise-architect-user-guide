@@ -30,7 +30,7 @@ date: 2019-02-08
 
 ![EA 白板图属性面板](./visio-block-diagram-in-enterprise-architect/ea-whiteboard-diagram-properties.png)
 
-# 图元素形状（Shapes）
+# 图元素
 
 ## 工具盒（Toolbox）
 
