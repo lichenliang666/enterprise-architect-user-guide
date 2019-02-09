@@ -11,31 +11,51 @@ date: 2019-02-08
 
 1. 打开 New Diagram 窗口（注意：不能在 Root Note 下创建图，需要选择个包后才能创建图）
 
-![](./visio-block-diagram-in-enterprise-architect/create-a whiteboard-diagram-00.png)
+![](./visio-block-diagram-in-enterprise-architect/create-a-whiteboard-diagram-00.png)
 
 2. 在 New Diagram 窗口中找到白板图
 
-![](./visio-block-diagram-in-enterprise-architect/create-a whiteboard-diagram-01.png)
+![](./visio-block-diagram-in-enterprise-architect/create-a-whiteboard-diagram-01.png)
 
 3. 选择白板图或手绘图（随便选什么都行，在图属性中可以随意切换）
 
-![](./visio-block-diagram-in-enterprise-architect/create-a whiteboard-diagram-02.png)
+![](./visio-block-diagram-in-enterprise-architect/create-a-whiteboard-diagram-02.png)
 
-# 形状元素
+# 白板图属性
+
+白板图除了基本的图属性为，还有两个特殊的属性，分别是“手绘”和“白板”
+
+- 手绘：勾选后图中的元素线条会呈现出手绘的效果。
+- 白板：勾选后图的背景变为白色，并且图中所有形状的填充色都将显示为白色。
+
+![EA 白板图属性面板](./visio-block-diagram-in-enterprise-architect/ea-whiteboard-diagram-properties.png)
+
+# 图元素形状（Shapes）
 
 ## 工具盒（Toolbox）
 
 ![EA 白板图的形状、箭头、连线](./visio-block-diagram-in-enterprise-architect/ea-whiteboard-diagram-toolbox.png)
 
-## 图例
+## 形状（Shapes）
 
-## 形状
+![EA 白板图形状示例](./visio-block-diagram-in-enterprise-architect/ea-whiteboard-diagram-shapes-sample.png)
 
-## 箭头
+注意到上图中有个与众不同的形状了吗？
 
-## 细箭头
+那个就是图中的 Oval1 ，这个形状有两个不同之处：
 
-## 连线
+   1. 显示出了形状的名称；
+   2. 不是透明的，有填充色。
 
-# 白板图属性
+在白板图中的形状（Shapes）和箭头（Arrows）有两个通用的属性 fill 和 nameVisible ，分别用来控制是否填充和元素名称的显示，默认都为 false，如下图：
+
+![EA 白板图形状属性](./visio-block-diagram-in-enterprise-architect/ea-whiteboard-diagram-element-properties.png)
+
+> 注：上面的这两个属性不包括形状中的 Callout 和 Text Element
+
+##  Thin Arrows & Lines
+
+由于 Thin Arrows 和 Lines 元素都比较简单，这里就不在讲述了，自己去探索吧。
+
+
 
