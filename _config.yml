@@ -9,7 +9,7 @@ description:
 keywords: Enterprise Architect, EA, UML, 中文文档, 中文用户手册
 author: 李晨亮
 language: zh-CN
-timezone:
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
