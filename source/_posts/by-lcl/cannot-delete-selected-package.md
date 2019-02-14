@@ -11,6 +11,6 @@ EA项目环境说明：EA工程文件是受SVN版本控制的。
 
 ![EA不能删除选择的包](./cannot-delete-selected-package/cannot-delete-selected-package.png)
 
-> “基础信息管理” 包被 Check Out 了！
+> “基础信息管理” 包被 `Check Out` 了！
 
-如果你也遇到这个问题，请依次检查B包下的已经被 Check Out 出来的包（没有🔒图标的包），并它 Check In 了，就可以了。也可以直接把 B 包 Check In   Branch... 后，再删除 B 包。
+如果你也遇到这个问题，请依次检查B包下的已经被 `Check Out` 出来的包（没有🔒图标的包），把找到的包 `Check In` 之后就可以删除 B 包了。也可以直接把 B 包 `Check In Branch...` 后，再删除 B 包。
