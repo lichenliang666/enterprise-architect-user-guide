@@ -12,7 +12,7 @@
 <meta property="og:title" content="Enterprise Architect 用户指南（官方文档的粗译）">
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="Enterprise Architect 用户指南（官方文档的粗译）">
-<meta property="og:locale" content="default">
+<meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Enterprise Architect 用户指南（官方文档的粗译）">
   
@@ -56,7 +56,7 @@
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -66,6 +66,49 @@
 </header>
       <div class="outer">
         <section id="main">
+  
+    <article id="post-by-lcl/cannot-delete-selected-package" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/by-lcl/cannot-delete-selected-package.html" class="article-date">
+  <time datetime="2019-02-14T06:39:38.000Z" itemprop="datePublished">2019-02-14</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/by-lcl/cannot-delete-selected-package.html">EA中无法删除选择的包</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>EA项目环境说明：EA工程文件是受SVN版本控制的。</p>
+<p>在 <code>Project Browser</code> A包右键依次点击  <code>Package Control</code>  -&gt; <code>Check Out</code> 后，想删除A包下面的B包。在B包上右键点击，在右键菜单中点击<code>Delete &#39;B&#39;</code>后的提示，如下图：</p>
+<p><img src="./cannot-delete-selected-package/cannot-delete-selected-package.png" alt="EA不能删除选择的包"></p>
+<blockquote>
+<p>“基础信息管理” 包被 <code>Check Out</code> 了！</p>
+</blockquote>
+<p>如果你也遇到这个问题，请依次检查B包下的已经被 <code>Check Out</code> 出来的包（没有🔒图标的包），把找到的包 <code>Check In</code> 之后就可以删除 B 包了。也可以直接把 B 包 <code>Check In Branch...</code> 后，再删除 B 包。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/by-lcl/cannot-delete-selected-package.html" data-id="cjs4ayvqj000024lhmnyn6fik" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
   
     <article id="post-by-lcl/visio-block-diagram-in-enterprise-architect" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
@@ -127,7 +170,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/by-lcl/visio-block-diagram-in-enterprise-architect.html" data-id="cjs1dvvm500008wlhskkllsla" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/by-lcl/visio-block-diagram-in-enterprise-architect.html" data-id="cjs3zwr8o000030lh1put1y6e" class="article-share-link">Share</a>
       
       
     </footer>
@@ -169,7 +212,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/guide-book/business-analysis-tools/boundary.html" data-id="cjs1dvvna00018wlhxjc8vfkv" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/guide-book/business-analysis-tools/boundary.html" data-id="cjs3zwr8x000130lhjy4977tm" class="article-share-link">Share</a>
       
       
     </footer>
@@ -195,9 +238,9 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
+    <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/02/">February 2019</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/02/">二月 2019</a></li></ul>
     </div>
   </div>
 
@@ -205,9 +248,13 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/by-lcl/cannot-delete-selected-package.html">EA中无法删除选择的包</a>
+          </li>
         
           <li>
             <a href="/by-lcl/visio-block-diagram-in-enterprise-architect.html">在 Enterprise Architect 中画 Visio 的基本框图</a>
